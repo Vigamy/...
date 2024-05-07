@@ -7,7 +7,7 @@ presente.addEventListener("click", (e) => {
         presente.classList.add('aberto')
     })
     setTimeout(() => {
-        window.location.href = "./index.html";
+        window.location.href = "./project/index.html";
     }, 3000);
 })
 
