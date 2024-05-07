@@ -10,5 +10,3 @@ presente.addEventListener("click", (e) => {
         window.location.href = "./project/index.html";
     }, 3000);
 })
-
-    
