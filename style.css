@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(30, 30, 30);
+    color: hotpink;
+    margin: auto;
+    text-align: center;
+    
+}
+
+h1, h2 {
+    margin-top: 30px;
+    font-size: 80px;
+}
+
+#main {
+    display: flex;
+    background-color: aqua;
+}
+
+#ft_ester_1 {
+    background-color: yellow;
+    margin: 20px;
+}
+
+#texto {
+    width: fit-content;
+    height: fit-content;
+    background-color: aliceblue;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+a {
+    font-size: 50px;
+    text-decoration: none;
+    color: hotpink;
+}
+
+#presente {
+    margin-left: 2%;
+    margin-top: 50%;
+    animation: go-back 1s;
+    transition: transform 1s ease-in-out;
+}
+.ppresente{
+    transform: scale(0.0001);
+}
+.pppresente{
+    transform: scale(1);
+}
+
+@keyframes go-back {
+    0% {
+        transform: translateX(500px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
